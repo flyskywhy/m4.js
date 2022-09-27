@@ -1,0 +1,33 @@
+{
+  "name": "m4.js",
+  "version": "1.0.0",
+  "description": "Can import 'm4.js' as various webgl 3d math functions from https://github.com/gfxfundamentals/webgl-fundamentals/blob/master/webgl/resources/m4.js",
+  "main": "m4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flyskywhy/m4.js.git"
+  },
+  "keywords": [
+    "3d",
+    "android",
+    "ios",
+    "m4",
+    "math",
+    "matrix4",
+    "native",
+    "react-native",
+    "opengl",
+    "webgl",
+    "webgl-fundamentals"
+  ],
+  "dependencies": {},
+  "private": false,
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/flyskywhy/m4.js/issues"
+  },
+  "homepage": "https://github.com/flyskywhy/m4.js#readme"
+}
