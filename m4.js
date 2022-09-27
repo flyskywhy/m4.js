@@ -34,16 +34,8 @@
  *
  * @module webgl-3d-math
  */
-(function(root, factory) {  // eslint-disable-line
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define([], factory);
-  } else {
-    // Browser globals
-    root.m4 = factory();
-  }
-}(this, function() {
-  "use strict";
+
+export default (function() {
 
   /**
    * An array or typed array with 3 values.
@@ -1462,6 +1454,6 @@
     setDefaultType: setDefaultType,
   };
 
-}));
+})();
 
 
